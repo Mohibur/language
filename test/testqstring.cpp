@@ -1,10 +1,17 @@
 #include <QtTest/QtTest>
-#include "testqstring.h"
+#include ""
+
+class TestQString: public QObject, public 
+{
+    Q_OBJECT
+private slots:
+    void toUpper();
+};
 
 void TestQString::toUpper()
 {
     QString str = "Hello";
-    QVERIFY(str.toUpper() == "HELLO");
+    QCOMPARE(str.toUpper(), QString("HELLO"));
 }
 
 QTEST_MAIN(TestQString)
