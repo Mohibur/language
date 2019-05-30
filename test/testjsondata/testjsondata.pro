@@ -6,8 +6,8 @@ QT += testlib
 QT -= gui
 
 TEMPLATE = app
-TARGET = test
-INCLUDEPATH += . ..
+TARGET = ../testJsonData
+INCLUDEPATH += . ../..
 
 # Input
-SOURCES += testjsondata.cpp ../jsondata.cpp
+SOURCES += testjsondata.cpp ../../jsondata.cpp

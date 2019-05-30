@@ -1,34 +1,41 @@
 #ifndef __OBJECT_LIST_H
 #define __OBJECT_LIST_H
 
-#define <QList>
-#include "objectlist.h"
-class ObjectList;
+#include <QList>
+
+class ObjectDetails;
 
 class ObjectParser {
+public:
+  ObjectParser();
 private:
+  static const QString defaultSplit;
   QString error;
-  QRegularExpression number;
-  QRegularExpression objName;
+  QRegExp number;
+  QRegExp objName;
 
 private:
-  ObjectList& getTheObject(const QString &str);
+  ObjectDetails getTheObject(const QString &str);
 
 public:
-  QList<ObjectList> createList(const QString &str);
-  const QString& getError();
-}
+  QList<ObjectDetails> createList(const QString &str);
+  QList<ObjectDetails> createList(const QString &str, const QString &split);
+  const QString getError();
+};
 
-class ObjectList {
+class ObjectDetails {
+public:
+  enum ObjectType {
+    JsonObject = 0,
+    JsonArray
+  };
+
 public:
   QString oIndex;
   ObjectType oType;
   bool isLast;
+  
 public:
-  enum ObjectType {
-    JsonObject=0,
-    JsonArray
-  };
-
-}
+  ObjectDetails& operator=(const ObjectDetails& other);
+};
 #endif

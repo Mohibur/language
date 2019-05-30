@@ -6,3 +6,4 @@ Makefile
 test/test
 test/testqstring.moc
 test/testqstring.o
+*.o

@@ -1,0 +1,108 @@
+2019-05-30 12:00:44[INFO]testobjectlist.cpp[21]: Buidling
+2019-05-30 12:01:06[INFO]testobjectlist.cpp[21]: Buidling
+2019-05-30 12:02:33[INFO]testobjectlist.cpp[21]: Buidling
+2019-05-30 12:03:44[INFO]testobjectlist.cpp[21]: Buidling
+2019-05-30 12:04:24[INFO]testobjectlist.cpp[21]: Buidling
+2019-05-30 12:07:07[INFO]testobjectlist.cpp[21]: Buidling
+2019-05-30 12:08:50[INFO]testobjectlist.cpp[21]: Buidling
+2019-05-30 12:08:50[ERROR]testobjectlist.cpp[22]: qList size 0
+2019-05-30 12:08:50[INFO]testobjectlist.cpp[24]: Message: 
+2019-05-30 12:08:50[ERROR]testobjectlist.cpp[28]: qList size 0
+2019-05-30 14:19:47[INFO]testobjectlist.cpp[21]: Buidling
+2019-05-30 14:19:47[ERROR]testobjectlist.cpp[22]: qList size 0
+2019-05-30 14:19:47[INFO]testobjectlist.cpp[24]: Message: 
+2019-05-30 14:19:47[ERROR]testobjectlist.cpp[28]: qList size 0
+2019-05-30 14:21:03[INFO]testobjectlist.cpp[21]: Buidling
+2019-05-30 14:21:07[ERROR]testobjectlist.cpp[22]: qList size 0
+2019-05-30 14:27:10[INFO]testobjectlist.cpp[24]: Message: 
+2019-05-30 14:28:03[ERROR]testobjectlist.cpp[28]: qList size 0
+2019-05-30 14:28:43[INFO]testobjectlist.cpp[21]: Buidling
+2019-05-30 14:28:45[ERROR]testobjectlist.cpp[22]: qList size 0
+2019-05-30 14:29:08[INFO]testobjectlist.cpp[24]: Message: 
+2019-05-30 14:31:03[INFO]testobjectlist.cpp[21]: Buidling
+2019-05-30 14:31:03[INFO]testobjectlist.cpp[24]: Message: 
+2019-05-30 14:31:03[INFO]testobjectlist.cpp[30]: Start Testing 0
+2019-05-30 14:31:03[INFO]testobjectlist.cpp[34]: End Testing 0Start Testing 1
+2019-05-30 14:31:03[INFO]testobjectlist.cpp[38]: End Testing 1Start Testing 2
+2019-05-30 14:31:03[INFO]testobjectlist.cpp[42]: End Testing 2Start Testing 3
+2019-05-30 14:31:03[INFO]testobjectlist.cpp[46]: End Testing 3
+2019-05-30 14:32:15[INFO]testobjectlist.cpp[21]: START_____________________________________________________
+2019-05-30 14:32:15[INFO]testobjectlist.cpp[24]: Message: 
+2019-05-30 14:32:15[INFO]testobjectlist.cpp[30]: Start Testing 0
+2019-05-30 14:32:15[INFO]testobjectlist.cpp[34]: End Testing 0Start Testing 1
+2019-05-30 14:32:15[INFO]testobjectlist.cpp[38]: End Testing 1Start Testing 2
+2019-05-30 14:32:15[INFO]testobjectlist.cpp[42]: End Testing 2Start Testing 3
+2019-05-30 14:32:15[INFO]testobjectlist.cpp[46]: End Testing 3
+2019-05-30 14:32:15[INFO]testobjectlist.cpp[48]: END_______________________________________________________
+2019-05-30 14:33:12[INFO]testobjectlist.cpp[21]: START_____________________________________________________
+2019-05-30 14:33:12[INFO]testobjectlist.cpp[24]: Message: 
+2019-05-30 14:33:12[INFO]testobjectlist.cpp[30]: Start Testing 0
+2019-05-30 14:33:12[INFO]testobjectlist.cpp[34]: End Testing 0Start Testing 1
+2019-05-30 14:33:12[INFO]testobjectlist.cpp[38]: End Testing 1Start Testing 2
+2019-05-30 14:33:12[INFO]testobjectlist.cpp[42]: End Testing 2Start Testing 3
+2019-05-30 14:33:12[INFO]testobjectlist.cpp[46]: End Testing 3
+2019-05-30 14:33:12[INFO]testobjectlist.cpp[48]: END_______________________________________________________
+2019-05-30 15:01:53[INFO]testobjectlist.cpp[21]: START_____________________________________________________
+2019-05-30 15:01:53[INFO]testobjectlist.cpp[24]: Message: 
+2019-05-30 15:01:53[INFO]testobjectlist.cpp[26]: Start Testing: 0
+2019-05-30 15:01:53[INFO]testobjectlist.cpp[30]: End Testing: 0
+Start: Testing 1
+2019-05-30 15:01:53[INFO]testobjectlist.cpp[34]: End Testing: 1
+Start: Testing 2
+2019-05-30 15:01:53[INFO]testobjectlist.cpp[38]: End Testing: 2
+Start: Testing 3
+2019-05-30 15:01:53[INFO]testobjectlist.cpp[42]: End Testing: 3
+
+2019-05-30 15:01:53[INFO]testobjectlist.cpp[46]: Message: Object Identification is invalid. Only allowd text is in array only ^[0-9]$, for object name ^[a-zA-Z][a-zA-Z0-9_-]*$. If object name is number then the application will collpase
+2019-05-30 15:03:40[INFO]testobjectlist.cpp[21]: START_____________________________________________________
+2019-05-30 15:03:40[INFO]testobjectlist.cpp[24]: Message: 
+2019-05-30 15:03:40[INFO]testobjectlist.cpp[26]: Start Testing: 0
+2019-05-30 15:03:40[INFO]testobjectlist.cpp[30]: End Testing: 0
+Start: Testing 1
+2019-05-30 15:03:40[INFO]testobjectlist.cpp[34]: End Testing: 1
+Start: Testing 2
+2019-05-30 15:03:40[INFO]testobjectlist.cpp[38]: End Testing: 2
+Start: Testing 3
+2019-05-30 15:03:40[INFO]testobjectlist.cpp[42]: End Testing: 3
+
+2019-05-30 15:03:40[INFO]testobjectlist.cpp[46]: Message: 
+2019-05-30 15:03:40[INFO]testobjectlist.cpp[49]: Start Testing: 0
+2019-05-30 15:03:40[INFO]testobjectlist.cpp[53]: End Testing: 0
+Start Testing: 1
+2019-05-30 15:03:40[INFO]testobjectlist.cpp[57]: End Testing: 1
+Start: Testing 2
+2019-05-30 15:03:40[INFO]testobjectlist.cpp[61]: End Testing: 2
+Start: Testing 3
+2019-05-30 15:03:40[INFO]testobjectlist.cpp[65]: End Testing: 3
+2019-05-30 15:03:40[INFO]testobjectlist.cpp[69]: Message: 
+2019-05-30 15:03:40[INFO]testobjectlist.cpp[75]: __TESTING_ERROR__
+2019-05-30 15:03:40[INFO]testobjectlist.cpp[78]: Message: Object Identification is invalid. Only allowd text is in array only ^[0-9]$, for object name ^[a-zA-Z][a-zA-Z0-9_-]*$. If object name is number then the application will collpase
+2019-05-30 15:03:40[INFO]testobjectlist.cpp[84]: Message: Object Identification is invalid. Only allowd text is in array only ^[0-9]$, for object name ^[a-zA-Z][a-zA-Z0-9_-]*$. If object name is number then the application will collpase
+2019-05-30 15:03:40[INFO]testobjectlist.cpp[89]: Message: Invalid item. It's empty
+2019-05-30 15:03:40[INFO]testobjectlist.cpp[92]: END_______________________________________________________
+2019-05-30 15:05:03[INFO]testobjectlist.cpp[21]: START_____________________________________________________
+2019-05-30 15:05:03[INFO]testobjectlist.cpp[24]: Message: 
+2019-05-30 15:05:03[INFO]testobjectlist.cpp[26]: Start Testing: 0
+2019-05-30 15:05:03[INFO]testobjectlist.cpp[30]: End Testing: 0
+Start: Testing 1
+2019-05-30 15:05:03[INFO]testobjectlist.cpp[34]: End Testing: 1
+Start: Testing 2
+2019-05-30 15:05:03[INFO]testobjectlist.cpp[38]: End Testing: 2
+Start: Testing 3
+2019-05-30 15:05:03[INFO]testobjectlist.cpp[42]: End Testing: 3
+
+2019-05-30 15:05:03[INFO]testobjectlist.cpp[46]: Message: 
+2019-05-30 15:05:03[INFO]testobjectlist.cpp[49]: Start Testing: 0
+2019-05-30 15:05:03[INFO]testobjectlist.cpp[53]: End Testing: 0
+Start Testing: 1
+2019-05-30 15:05:03[INFO]testobjectlist.cpp[57]: End Testing: 1
+Start: Testing 2
+2019-05-30 15:05:03[INFO]testobjectlist.cpp[61]: End Testing: 2
+Start: Testing 3
+2019-05-30 15:05:03[INFO]testobjectlist.cpp[65]: End Testing: 3
+2019-05-30 15:05:03[INFO]testobjectlist.cpp[69]: Message: 
+2019-05-30 15:05:03[INFO]testobjectlist.cpp[75]: __TESTING_ERROR__
+2019-05-30 15:05:03[INFO]testobjectlist.cpp[78]: Message: Object Identification is invalid. Only allowd text is in array only ^[0-9]$, for object name ^[a-zA-Z][a-zA-Z0-9_-]*$. Found obj1,123
+2019-05-30 15:05:03[INFO]testobjectlist.cpp[84]: Message: Object Identification is invalid. Only allowd text is in array only ^[0-9]$, for object name ^[a-zA-Z][a-zA-Z0-9_-]*$. Found 1ob1j
+2019-05-30 15:05:03[INFO]testobjectlist.cpp[89]: Message: Invalid item. It's empty
+2019-05-30 15:05:03[INFO]testobjectlist.cpp[92]: END_______________________________________________________
