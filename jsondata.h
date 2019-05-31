@@ -7,12 +7,11 @@
 class JsonData {
 private:
   QJsonValue jsonValue;
-  QString separator;
   QString error;
 public:
-  JsonData(QJsonValue jsonValue, const QString &separator);
+  JsonData(QJsonValue jsonValue);
   QString getError();
-  QString getValue(const QString &search);
+  QString getValue(const QString &search, const QString &separator);
 
 protected:
   int intToString(const QString &s);

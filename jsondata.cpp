@@ -3,13 +3,12 @@
 #include "test/log.h"
 #include <QJsonDocument>
 
-JsonData::JsonData(QJsonValue jsonValue, const QString &separator) {
+JsonData::JsonData(QJsonValue jsonValue) {
   this->jsonValue = jsonValue;
-  this->separator = separator;
   
 }
 // search example: abc.[10].def.[0]
-QString JsonData::getValue(const QString &search) {
+QString JsonData::getValue(const QString &search, const QString &separator) {
   if(search.isEmpty()) {
     return QString("");
   }

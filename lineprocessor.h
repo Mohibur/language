@@ -6,12 +6,15 @@
 class LineProcessor 
 {
 private:
-	QString processLine;
-	JsonData jsonData;
+  QString processLine;
+  QString separator;
+  QString tagStart;
+  QString tagEnd;
+  JsonData jsonData;
 public:
-	LineProcessor(const JsonData &jsonData);
+  LineProcessor(const JsonData &jsonData);
 
 public:
-	QString processString(const QString &line);
+  QString processString(const QString &line);
 }
 #endif

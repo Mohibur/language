@@ -2,24 +2,31 @@
 
 ObjectParser::ObjectParser():
   number(QString("^\\d+$")), 
-  objName(QString("^[a-zA-Z][a-zA-Z0-9_-]*$")) {
+  objName(QString("^[a-zA-Z0-9_-]+$|^\"[a-zA-Z0-9_-]+\"$")) {
 
 }
 
 ObjectDetails ObjectParser::getTheObject(const QString &pstr) {
   ObjectDetails toRet;
   toRet.isLast = false;
-  toRet.oIndex = pstr.trimmed();
-  if(toRet.oIndex.isEmpty()) {
-    error.append("Invalid item. It's empty");
-    return ObjectDetails();
-  }
-  if(number.indexIn(toRet.oIndex) == 0) {
+  QString str = pstr.trimmed();
+  if(number.indexIn(str) == 0) {
+    toRet.oIndex = str;
     toRet.oType = ObjectDetails::JsonArray;
-  } else if(objName.indexIn(toRet.oIndex) == 0) {
+  } else if(objName.indexIn(str) == 0) {
+    if(str.indexOf("\"") == 0) {
+      toRet.oIndex = str.mid(1, str.size() - 2);
+    } else {
+      toRet.oIndex = str;
+    }
     toRet.oType = ObjectDetails::JsonObject;
   } else {
-    error.append(QString("Object Identification is invalid. Only allowd text is in array only ^[0-9]$, for object name ^[a-zA-Z][a-zA-Z0-9_-]*$. Found ").append(toRet.oIndex));
+    error.append(QString("Object Identification is invalid. Only allowd text is in array only ^[0-9]$, for object name ^[a-zA-Z0-9_-]+$|^\"[a-zA-Z0-9_-]+\"$. Found ").append(toRet.oIndex));
+    return ObjectDetails();
+  }
+
+  if(toRet.oIndex.isEmpty()) {
+    error.append("Invalid item. It's empty");
     return ObjectDetails();
   }
   return toRet;
