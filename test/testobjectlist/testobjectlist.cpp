@@ -78,7 +78,7 @@ void TestObjectList::testCreateList()
   INFO(QString("Message: ").append(obj4.getError()));
   QCOMPARE(qList4.size(), 0);
 
-  
+
   ObjectParser obj5;
   QList<ObjectDetails> qList5 = obj5.createList(QString("1ob1j"));
   INFO(QString("Message: ").append(obj5.getError()));

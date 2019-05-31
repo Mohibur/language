@@ -28,6 +28,7 @@ ObjectDetails ObjectParser::getTheObject(const QString &pstr) {
 QList<ObjectDetails> ObjectParser::createList(const QString &str) {
   return createList(str, defaultSplit);
 }
+
 QList<ObjectDetails> ObjectParser::createList(const QString &str, const QString &split) {
   QList<ObjectDetails> toRet;
   QStringList strList = str.split(split);

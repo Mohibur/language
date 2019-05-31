@@ -13,8 +13,5 @@ public:
 
 public:
 	QString processString(const QString &line);
-
-private:
-	int position(const QString &search);
 }
 #endif
