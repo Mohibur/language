@@ -17,5 +17,6 @@ public:
 protected:
   int intToString(const QString &s);
   bool isValue(QJsonValue qjv);
+  QString getStringValue(QJsonValue jv);
 };
 #endif
