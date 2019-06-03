@@ -9,9 +9,6 @@
 #define ERROR(msg)    TestLog::log(msg, QString("[ERROR]" __FILE__ "[" TONUMBER(__LINE__) "]:"))
 
 class TestLog {
-  static QString filename;
-  static QFile file;
-  static QTextStream stream;
 public:
   static void log(const QString &msg, const QString &info);
 };

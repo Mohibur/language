@@ -9,6 +9,8 @@ JsonData::JsonData(QJsonValue jsonValue) {
 }
 // search example: abc.[10].def.[0]
 QString JsonData::getValue(const QString &search, const QString &separator) {
+  // reset error field;
+  error = "";
   if(search.isEmpty()) {
     return QString("");
   }
